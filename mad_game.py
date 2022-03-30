@@ -1,19 +1,21 @@
-# A ideia desse mini-game é criar uma frase aleatória com os inputs dos usuários.
+from time import sleep
+# The welcome page
+def welcome():
+    print("=======================")
+    print("        MadGame        ")
+    print("=======================")
+    sleep(2)
+# The game system
+def jogar():
+    welcome()
+    print("Now, we will ask you some types of words that you can choose to create the mad phrase.")
+    sleep(2)
+    # Creating the variables
+    adj1 = input("Choose an adjetive")
+    adj2 = input("Another one")
+    noum = input("Choose a noum")
+    verb = input("Choose a verb")
 
-#Iniciando uma pequena apresentação
-print("Bem vindo ao minigame! A seguir você receberá instruções de tipos de itens e deverá responder com um adequado. \n Por exemplo: verbo -> Criar")
-nick = input("Digite o seu nome para continuar:")
-
-#Abaixo as variáveis para montar a frase
-adj1 = input("Adjetivo 1:")
-famoso = input("Famoso:")
-verbo = input("Verbo 1:")
-adj2 = input("Segundo adjetivo:")
-coisa = input("Qual coisa?")
-cheiro = input("Escolha um cheiro:")
-
-#Por fim, a frase sendo printada:
-print(f"O mundo seria muito melhor se você fosse mais {adj1}. \
-Aliás, você sabia que o {famoso} consegue {verbo}?\
-Eu também não sabia, mas é verdade. Outro fato deveras {adj2} é que {famoso} vem do latin \
-Significa {coisa}. Recebeu esse nome por ter cheiro de {cheiro}")
+    # Building the phrase
+    print(f"The world would be better if you were more {adj1}, actually, do you know that {noum} can {verb} video games? It's complicated to explain, but {noum} is {adj2}")
+jogar()
