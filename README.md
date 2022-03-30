@@ -10,7 +10,7 @@ The game will ask you some things like adjetives and verbs to create an crazy ph
 ## Calculator:
 Choose 2 numbers to: sum, subtract or multiply.
 # New features:
-* Translate the MadGame to English;
+* DONE -> Translate the MadGame to English;
 * Add other games;
 * Connect all into a main menu;
 * Create a dir to save user data;
