@@ -30,7 +30,7 @@ while option != 5:
         n1 = int(input("Whats the first number?"))
         n2 = int(input("And the seccound one?"))
     elif option == 5:
-        print(">>>>>>>> STOPPING")
+        print(">>>>>>>>>>> STOPPING")
     else:
         print(f"{option} is not an valid option, try again.")
     sleep(1)
