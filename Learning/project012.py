@@ -3,4 +3,4 @@
 
 price = float(input("Whats the price? R$ "))
 dc = price * 0.95
-print(f"You would pay R${price}, but with the descount of 5%, you'll pay R${dc:.2f}")
+print(f"You would pay R${price:.2f}, but with the descount of 5%, you'll pay R${dc:.2f}")
